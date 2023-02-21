@@ -38,7 +38,7 @@ while(1):
     #creates a 5x5 kernel filled with ones 
     kernal = np.ones((5, 5), "uint8")
     
-    #hickening of the white areas in the image.
+    #thickening of the white areas in the image.
     flash_mask = cv2.dilate(flash_mask, kernal)
 
     #preserver only the white parts of the image
