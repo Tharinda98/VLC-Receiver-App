@@ -89,7 +89,7 @@ while(1):
 
     #print(bit_stream)
 
-    # Check if 5 seconds have elapsed and reset the bit stream
+    # Check if 2 seconds have elapsed and reset the bit stream
     if((end_time) and (start_time)):
         # print(start_time)
         # print(end_time)
